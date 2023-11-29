@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btnEmbaralhar.addEventListener('click', async() => {
         await newShuffle('hp8i0k5l5zfq')
         divMsg.innerHTML = 'Cartas na pilha: '+baralho.remaining
+        divMesa.innerHTML = ""
     })
 
     btnRetirar.addEventListener('click', async() => {
