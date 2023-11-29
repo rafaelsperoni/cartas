@@ -1,0 +1,8 @@
+@apiurl = https://deckofcardsapi.com/api/deck
+
+#GET shuffle cards
+GET {{apiurl}}/hp8i0k5l5zfq/shuffle/?deck_count=1
+
+
+#GET pick a card
+GET {{apiurl}}/hp8i0k5l5zfq/draw/?count=1
